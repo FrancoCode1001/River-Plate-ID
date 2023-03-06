@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://riveridstorage.blob.core.windows.net/appcarpblob/carp_bk2.jpg);
+    background-size: cover;
+    background-color: #1f1f1f;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.image-socio img{
+    height: 560px;
+    border-radius: 5px;
+    float: right;
+    margin: 150px 205px;
+    cursor: pointer;
+}
+.formulario{
+    position: relative;
+    top: 95px;
+    height: 17cm;
+    left: 160px;
+    width: 13.1cm;
+}
+.formulario img{
+    height: 90px;
+}
+.formulario h1{
+    color: #fff;
+    font-size: 33px;
+    width: 11cm;
+    margin-top: 45px;
+}
+.formulario p ,.fa-fingerprint{
+    color: gray;
+    font-size: 14px;
+    padding: 0 5px;
+}
+.formulario span{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 200;
+    position: relative;
+    top: 30px;
+}
+.correo, .contra{
+    width: 13cm;
+    float: left;
+    outline: none;
+    margin-top: 40px;
+    height: 1cm;
+    border-radius: 5px;
+    border: none;
+    text-indent: 45px;
+    color: #fff;
+    background-color: rgba(94, 94, 94, 0.5);
+}
+input::-webkit-input-placeholder {
+    color: white;
+    font-weight: 200;
+}
+input::-moz-input-placeholder {
+    color: white;
+    font-weight: 200;
+}
+.fa-user, .fa-key{
+    color: #fff;
+    position: absolute;
+    left: 15px;
+    margin-top: 50px;
+}
+.formulario label, input, [href="#rm"]{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 35px;
+    transition: .3s ease;
+    font-weight: 100;
+}
+.formulario button{
+    width: 13cm;
+    height: 1.5cm;
+    color: #fff;
+    font-size: 15px;
+    background-color: red;
+    cursor: pointer;
+    border: none;
+    margin-top: 30px;
+}
+.formulario h5, [href="#"]{
+    color: #fff;
+    transition: .3s ease;
+    font-weight: 100;
+    font-size: 15px;
+    text-decoration: none;
+}
+.redes{
+    background-color: #1f1f1f;
+    margin-top: 180px;
+    padding: 20px;
+}
+.redes img{
+    position: relative;
+    left: 130px;
+}
+.fa-brands{
+    color: #fff;
+    float: right;
+    position: relative;
+    left: 720px;
+    font-size: 14px;
+    padding: 5px;
+    top: 10px;
+    border: 1px solid #fff;
+    border-radius: 1em;
+    margin-left: 10px;
+    align-items: center;
+    cursor: pointer;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    width: 15px;
+}
+.derechos{
+    text-align: right;
+    color: #fff;
+    margin-right: 150px;
+    margin-top: 15px;
+}
+.derechos h4{
+    margin-right: 5px;
+    display: inline-block;
+    font-size: 11px;
+    width: 5.5cm;
+    position: relative;
+    top: -15px;
+    line-height: 15px;
+    color: #a7a6a6;
+    font-weight: 100;
+}
+footer{
+    display: flex;
+    align-items: center;
+    width: 20cm;
+    margin-top: -75px;
+    margin-left: 60px;
+}
+footer img{
+    cursor: pointer;
+    margin-left: 100px;
+}
+[href="#rm"]:hover,
+[href="#"]:hover{
+    color: red;
+}
+.fa-brands:hover{
+    background-color: #fff;
+    color: #1f1f1f;
+}
